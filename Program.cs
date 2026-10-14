@@ -13,6 +13,7 @@ builder.Services.AddCors(options =>
         policy.WithOrigins(
             "https://it24100131.github.io",
             "https://campuseats-web.vercel.app",
+            "https://lab11-jade.vercel.app",
             "http://localhost:5173"
         )
         .AllowAnyHeader()
