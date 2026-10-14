@@ -11,8 +11,7 @@ builder.Services.AddCors(options =>
     options.AddPolicy("Frontend", policy =>
     {
         policy.WithOrigins(
-            "https://it24100131.github.io",
-            "https://campuseats-web.vercel.app",
+            "https://it24201016.github.io",
             "https://lab11-jade.vercel.app",
             "http://localhost:5173"
         )
